@@ -2,6 +2,7 @@
    * @jQuery Make ELement Center Base on windows height Vertical 
    * @jQuery Make ELement Center Base on windows height Horizontal
    *
+   *  cooked by nielsoffice
    *  Defined: default: H version: CSS({'magin','0 auto'});  
   **/
   $(document).ready( function() {
