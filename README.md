@@ -11,13 +11,19 @@
  elementVerticalCenter()
 
  // Implementation
- $('#ElementNameChild').css({
+  $(window).on('load', function () {
+    
+    // Select Element wants to be center ?
+    // add jQuery function CSS() 
+   $('#ElementNameChild').css({
      
     // set the value ofpadding into function          
     'padding-top'   : elementVerticalCenter(),
     'padding-bottom': elementVerticalCenter()
    
- }); // End of Windows Load
+   }); // End of jQuery CSS({})
+
+  }); // End of Windows Load 
 
 
 ```
